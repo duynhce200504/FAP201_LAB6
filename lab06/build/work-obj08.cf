@@ -1,0 +1,22 @@
+v 4
+file . "..\sim\lab06_game_tb.vhd" "4850dab340738c097847cbee74a76980a2eb3174" "20261020065328.014":
+  entity lab06_game_tb at 2( 76) + 0 on 23;
+  architecture test of lab06_game_tb at 7( 191) + 0 on 24;
+file . "..\sim\key_conditioner_tb.vhd" "e6f6793f83371e51bbe6a3a1c4d87af0d688d76d" "20261020065328.014":
+  entity key_conditioner_tb at 1( 0) + 0 on 21;
+  architecture test of key_conditioner_tb at 5( 94) + 0 on 22;
+file . "..\src\lab06_top_74hc595.vhd" "947a0a838060dce7c388281a3c4ec13980158a38" "20261020065328.013":
+  entity lab06_top_74hc595 at 2( 75) + 0 on 19;
+  architecture rtl of lab06_top_74hc595 at 23( 713) + 0 on 20;
+file . "..\src\lab06_top_ledonly.vhd" "921ff2f517acb8d011171ffa6e9d97276fed8f31" "20261020065328.012":
+  entity lab06_top_ledonly at 4( 218) + 0 on 17;
+  architecture rtl of lab06_top_ledonly at 20( 676) + 0 on 18;
+file . "..\src\sevenseg_74hc595.vhd" "b2ebb5e7d3e827b4743a17cf2f2b9f8645ff0755" "20261020065328.012":
+  entity sevenseg_74hc595 at 5( 311) + 0 on 15;
+  architecture rtl of sevenseg_74hc595 at 24( 844) + 0 on 16;
+file . "..\src\lab06_game.vhd" "5f1793d322300fe357baddf46808174a0802b538" "20261020065328.011":
+  entity lab06_game at 4( 174) + 0 on 13;
+  architecture rtl of lab06_game at 27( 1073) + 0 on 14;
+file . "..\src\key_conditioner.vhd" "3508e10b4fac2a19f2d5df39cc2cae36454c14f8" "20261020065328.008":
+  entity key_conditioner at 2( 73) + 0 on 11;
+  architecture rtl of key_conditioner at 10( 365) + 0 on 12;

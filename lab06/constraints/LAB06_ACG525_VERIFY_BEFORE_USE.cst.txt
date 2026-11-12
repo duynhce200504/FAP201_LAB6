@@ -1,0 +1,13 @@
+# TEACHING DRAFT ONLY. DO NOT RENAME TO .cst UNTIL THE EXACT BOARD REVISION,
+# GPIO table, I/O bank voltage/polarity, clock and device have been checked.
+# Board candidate per ACG525 pin table: clock T9, KEY0 B16 KEY1 A15 KEY2 C15,
+# LED0 D14 LED1 C14 LED2 B9. Verify original course GPIO table / schematic.
+IO_LOC "clk_50m_i" T9;
+IO_LOC "key_raw_i[0]" B16;
+IO_LOC "key_raw_i[1]" A15;
+IO_LOC "key_raw_i[2]" C15;
+IO_LOC "led_pin_o[0]" D14;
+IO_LOC "led_pin_o[1]" C14;
+IO_LOC "led_pin_o[2]" B9;
+# Add IO_PORT IO_TYPE only after verifying VCCIO and board schematic.
+# Add verified 20-ns clock timing constraint in the course-approved syntax.

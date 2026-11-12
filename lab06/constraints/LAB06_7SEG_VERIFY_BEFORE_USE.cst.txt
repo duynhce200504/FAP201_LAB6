@@ -1,0 +1,8 @@
+# OPTIONAL 74HC595 three-wire output, schematic/pinout verification required.
+# Public ACG525 table CANDIDATE: DS F4, ST_CP F3, SH_CP H4.
+# Copy verified 3 LED, 3 KEY and CLOCK IO_LOC lines from Lab06 LED-only project.
+IO_LOC "seg_ds_o" F4;
+IO_LOC "seg_stcp_o" F3;
+IO_LOC "seg_shcp_o" H4;
+# Verify word order {segments,digit_select}, shift direction, active polarity,
+# board-specific 74HC595 daisy chain and refresh timing using a known vendor demo.

@@ -1,0 +1,12 @@
+# Lab06 Student self-review – fill BEFORE interview
+- [ ] I can explain the game in one minute without opening code.
+- [ ] I can demonstrate round 1, round 2, wrong choice and win at round 7.
+- [ ] I can identify the state register, timer, score, show index and input index.
+- [ ] I know why each key must create only one accepted event.
+- [ ] I can explain the difference between a testbench and hardware source.
+- [ ] I ran GHDL and saved the exact self-check PASS log (or documented FAIL).
+- [ ] I opened GTKWave and saved a waveform showing OFF/SHOW/WAIT phases.
+- [ ] I checked official board pins and IO electrical requirements.
+- [ ] I checked synthesis, P&R, clock constraint and correct bitstream timestamp.
+- [ ] I verified full game on hardware, or explicitly documented partial verification.
+- [ ] I am ready to explain a tiny FSM change or a button mapping change.
